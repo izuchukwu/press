@@ -32,17 +32,17 @@ Use Press with the `press` command in your scripts, or using `npx press`.
 
 💁‍♂️
 
-## Pressfile
+## Pressfiles
 
 Out of the box, Press supports any language that uses `//` for line comments, like JS, TypeScript, or C++. Use Pressfile to add support for other languages to Press. For example, to add Press support for Ruby, we'd make a Pressfile `.press` at the root of our project like so:
 
 ```json
 [
-	{
-		"language": "ruby",
-		"extensions": ["rb"],
-		"comment": "#"
-	}
+  {
+    "language": "ruby",
+    "extensions": ["rb"],
+    "comment": "#"
+  }
 ]
 ```
 
@@ -52,12 +52,12 @@ Pressfiles also supports using block comments, like so:
 
 ```json
 [
-	{
-		"language": "c",
-		"extensions": ["c"],
-		"blockCommentStart": "/*",
-		"blockCommentEnd": "*/"
-	}
+  {
+    "language": "c",
+    "extensions": ["c"],
+    "blockCommentStart": "/*",
+    "blockCommentEnd": "*/"
+  }
 ]
 ```
 
