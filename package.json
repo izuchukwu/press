@@ -1,0 +1,13 @@
+{
+  "name": "Press",
+  "version": "0.1.0",
+  "description": "Press is an experimental literate code tool",
+  "main": "lib/press.js",
+  "repository": "https://github.com/izuchukwu/press",
+  "author": "Izuchukwu Elechi <izuchukwuelechi@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "commander": "^2.15.1"
+  }
+}
