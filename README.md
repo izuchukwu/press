@@ -2,7 +2,7 @@
 
 Press is an experimental literate code tool. Press processes literate code files like Literate JS or Literate Ruby into regular source.
 
-Press uses Markdown and an added `.md` extension to source files so they're readable in GitHub & GitLab, and uses `.gitattributes` settings so your project's language breakdown stays the same.
+Press uses Markdown and an added `.md` extension to source files so they're readable in GitHub & GitLab, and uses `.gitattributes` settings so your source's detected language stays the same.
 
 Press works for any language.
 
@@ -27,7 +27,7 @@ npx press source/hello.js.md lib/
 
 ## Press options
 
-Use Press with the `press` command in your npm scripts, or via CLI using `npx press`.
+Use Press with the `press` command in your npm scripts, or directly using `npx press`.
 
 💁‍♂️
 
@@ -84,8 +84,12 @@ After modifying your Pressfile, you'll need to run `press init` again.
 
 ## Literate code?
 
-A lot is lost when we write code—our reasoning, our constraints, our mental process. Literate code lets our code express both what we're trying to do, as well as how it was done and why. Let's make software both user- & developer-friendly.
+A lot is lost when we write code—our reasoning, our constraints, our mental process. [Literate code](https://en.wikipedia.org/wiki/Literate_programming) lets our code express both what we're trying to do, as well as how it was done and why. Let's make software both user- & developer-friendly.
 
 Press uses Markdown for literate code as it's readable on the web, easy to pick up, and so it can stay hands-off in how you decide to define literate for you.
+
+Maybe one day, we'll even see a `.litjs`.
+
+A bit more on literate code & the motivation behind Press [here](LITERATE.md).
 
 😊
